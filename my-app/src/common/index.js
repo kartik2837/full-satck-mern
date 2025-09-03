@@ -1,5 +1,5 @@
 
-const backendDomin = "http://localhost:5000"
+const backendDomin = proecess.env.BACKEND_URL
 const SummaryApi = {
     SignUp: {
         url: `${backendDomin}/api/signup`,
@@ -96,5 +96,6 @@ const SummaryApi = {
         method: 'get'
     }
 }
+
 
 export default SummaryApi
