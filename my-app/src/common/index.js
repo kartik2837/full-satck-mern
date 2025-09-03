@@ -1,5 +1,5 @@
 
-const backendDomin = proecess.env.BACKEND_URL
+const backendDomin = process.env.BACKEND_URL
 const SummaryApi = {
     SignUp: {
         url: `${backendDomin}/api/signup`,
@@ -99,3 +99,4 @@ const SummaryApi = {
 
 
 export default SummaryApi
+
